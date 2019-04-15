@@ -34,14 +34,16 @@ body {
   flex-wrap: wrap;
 }
 .empty {
+  min-height: 2rem;
   display: flex;
   margin-top: 10px;
   position: relative;
   width: 15%;
-  height: 2rem;
+  height: auto;
   background: transparent;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border-radius: 5px;
   border: 2px solid #32a1ce;
 }
